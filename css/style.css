@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+#navContain {
+    padding-top: 25px;
+}
+
 ul{
     list-style-type: none;
     overflow: hidden;
@@ -12,12 +16,37 @@ ul{
 
 li {
     display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 li a {
     display: block;
     padding: 8px;
     background-color: transparent;
-    padding-left: 2em;
-    padding-right: 2em;
+    text-decoration: none;
+    color: #333333;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navLiMain {
+    font-size: 42px;
+    font-weight: 800;
+    text-shadow: 2em;
+    letter-spacing: 3px;
+    font-variant: small-caps;
+    font-style: italic;
+    text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+}
+
+.navLiSide {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    text-shadow: 1px 1px 0px #FFFFFF, 3px 2px 0px rgba(0,0,0,0.15);
+
+}
+
+li a:hover {
+    text-decoration: underline;
 }
