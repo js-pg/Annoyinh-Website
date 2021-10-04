@@ -6,6 +6,7 @@
 
 #navContain {
     padding-top: 25px;
+    padding-bottom: 15px;
 }
 
 ul{
@@ -29,6 +30,26 @@ li a {
     font-family: 'Raleway', sans-serif;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+/* Track */
+::-webkit-scrollbar-track {
+  background: #01796f;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #344b48;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #233532;
+}
+
 .navLiMain {
     font-size: 42px;
     font-weight: 800;
@@ -48,5 +69,21 @@ li a {
 }
 
 li a:hover {
-    text-decoration: underline;
+    text-decoration: underline #00c9b4;
+}
+
+#navContain {
+    border-bottom: 2px #01796f solid;
+}
+
+#main {
+    height: 80em;
+    text-align: center;
+}
+
+#mainContent {
+    padding-top: 40px;
+    width: 85%;
+    text-align: center;
+
 }
