@@ -87,3 +87,7 @@ li a:hover {
     text-align: center;
 
 }
+
+#popUpDiv {
+    background-color: red;
+}

@@ -1,12 +1,21 @@
 var main = document.getElementById('mainContainer')
 
 function popUp(text, header, toggle) {
-    if (toggle === 'enable'){
+
     mainPopup = document.getElementById('popUpDiv');
-    mainPopup.style.display = 'block';
+
     mainPopup.style.height = window.innerHeight * .9;
     mainPopup.style.width = window.innerHeight * .9;
+
+    if(toggle === 'enable'){
+
+    mainPopup.style.display = 'block';
     main.style.filter = 'blur(3px)';
     main.style.userSelect = 'none';
+
+    } else if(toggle === 'disable') {
+        main.style.filter = 'none';
+        mainPopup.style.display = 'none';
+        main.style.userSelect = 'none';
     }
 }
