@@ -24,3 +24,12 @@ function popUp(text, header, toggle) {
 
 
 }
+
+popUp('t', 't', 'disable')
+
+function popUpEnable() {
+    popUp('t', 't', 'enable')
+}
+function popUpDisable() {
+    popUp('t', 't', 'disable')
+}
