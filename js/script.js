@@ -21,6 +21,9 @@ function popUp(text, header, toggle) {
         main.style.userSelect = 'none';
     }
 
+    document.getElementById('popUpHeader').innerText = header;
+    document.getElementById('popUpText').innerText = text;
+
 
 
 }
