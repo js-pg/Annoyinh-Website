@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    border-style: solid;
     box-sizing: border-box;
 }
 
@@ -104,7 +103,9 @@ li a:hover {
     transform: translateY(50px);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     transition-duration: .4s;
-    border: 20px #01796f;
+    border-color: #01796f;
+    border-style: solid;
+    border-width: thin;
     border-radius: 40px;
 }
 
