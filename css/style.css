@@ -83,6 +83,7 @@ li a:hover {
     text-align: center;
     z-index: 1;
     position: fixed;
+    width: 100%;
 }
 
 #mainContent {
